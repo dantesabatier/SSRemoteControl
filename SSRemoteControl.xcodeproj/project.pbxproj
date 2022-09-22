@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE22A70E1A83CCAD00D5B9BB /* SSRemoteControlNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = FE22A70D1A83CCAD00D5B9BB /* SSRemoteControlNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE246F3C21E348C800A2F251 /* SSRemoteControlErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = FE246F3A21E348C800A2F251 /* SSRemoteControlErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE246F3D21E348C800A2F251 /* SSRemoteControlErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = FE246F3B21E348C800A2F251 /* SSRemoteControlErrors.m */; };
+		FE3867611A84B8AE00AF9EC3 /* SSRemoteControlNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3867601A84B8AE00AF9EC3 /* SSRemoteControlNotificationCenter.m */; };
+		FE391AC718FFD3AF00F3B3CC /* SSRemoteControlListener.h in Headers */ = {isa = PBXBuildFile; fileRef = FE675C3918D68B32000B47AA /* SSRemoteControlListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE53E90C19A2204800F4FD00 /* SSRemoteControl.h in Headers */ = {isa = PBXBuildFile; fileRef = FE53E90B19A2204800F4FD00 /* SSRemoteControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE58BF0A21AFF7C4003CEE4E /* SSRemoteCommandEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58BF0221AFF7C3003CEE4E /* SSRemoteCommandEvent.m */; };
+		FE58BF0B21AFF7C4003CEE4E /* SSRemoteCommandTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58BF0321AFF7C3003CEE4E /* SSRemoteCommandTarget.m */; };
+		FE58BF0C21AFF7C4003CEE4E /* SSRemoteCommandCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58BF0421AFF7C3003CEE4E /* SSRemoteCommandCenter.m */; };
+		FE58BF0D21AFF7C4003CEE4E /* SSRemoteCommandTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = FE58BF0521AFF7C3003CEE4E /* SSRemoteCommandTarget.h */; };
+		FE58BF0E21AFF7C4003CEE4E /* SSRemoteCommandCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = FE58BF0621AFF7C3003CEE4E /* SSRemoteCommandCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE58BF0F21AFF7C4003CEE4E /* SSRemoteCommandEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = FE58BF0721AFF7C3003CEE4E /* SSRemoteCommandEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE58BF1021AFF7C4003CEE4E /* SSRemoteCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = FE58BF0821AFF7C3003CEE4E /* SSRemoteCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE58BF1121AFF7C4003CEE4E /* SSRemoteCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58BF0921AFF7C4003CEE4E /* SSRemoteCommand.m */; };
+		FE590F971E3FA8A100B9ACC1 /* SSRemoteControlEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = FE590F951E3FA8A100B9ACC1 /* SSRemoteControlEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE590F981E3FA8A100B9ACC1 /* SSRemoteControlEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = FE590F961E3FA8A100B9ACC1 /* SSRemoteControlEvent.m */; };
+		FE590F9B1E3FABAE00B9ACC1 /* SSRemoteControlEventIdentifier.h in Headers */ = {isa = PBXBuildFile; fileRef = FE590F991E3FABAE00B9ACC1 /* SSRemoteControlEventIdentifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE590F9C1E3FABAE00B9ACC1 /* SSRemoteControlEventIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = FE590F9A1E3FABAE00B9ACC1 /* SSRemoteControlEventIdentifier.m */; };
+		FE675C3B18D68B32000B47AA /* SSRemoteControlListener.m in Sources */ = {isa = PBXBuildFile; fileRef = FE675C3A18D68B32000B47AA /* SSRemoteControlListener.m */; };
+		FE675C5818D68B4F000B47AA /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE675C5718D68B4F000B47AA /* IOKit.framework */; };
+		FE7B10AB21A39F9E00525471 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE7B10AA21A39F9E00525471 /* InfoPlist.strings */; };
+		FE85BB5C1FF90F83000491E5 /* SSRemoteControlListenerObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = FE85BB5A1FF90F83000491E5 /* SSRemoteControlListenerObserver.h */; };
+		FE85BB5D1FF90F83000491E5 /* SSRemoteControlListenerObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = FE85BB5B1FF90F83000491E5 /* SSRemoteControlListenerObserver.m */; };
+		FED7437522E849120057876D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FED7437322E849120057876D /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE22A70D1A83CCAD00D5B9BB /* SSRemoteControlNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRemoteControlNotificationCenter.h; sourceTree = "<group>"; };
+		FE246F3A21E348C800A2F251 /* SSRemoteControlErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSRemoteControlErrors.h; sourceTree = "<group>"; };
+		FE246F3B21E348C800A2F251 /* SSRemoteControlErrors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSRemoteControlErrors.m; sourceTree = "<group>"; };
+		FE3867601A84B8AE00AF9EC3 /* SSRemoteControlNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRemoteControlNotificationCenter.m; sourceTree = "<group>"; };
+		FE391AC318FFD30800F3B3CC /* SSRemoteControlDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRemoteControlDefines.h; sourceTree = "<group>"; };
+		FE53E90B19A2204800F4FD00 /* SSRemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRemoteControl.h; sourceTree = "<group>"; };
+		FE58BF0221AFF7C3003CEE4E /* SSRemoteCommandEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRemoteCommandEvent.m; sourceTree = "<group>"; };
+		FE58BF0321AFF7C3003CEE4E /* SSRemoteCommandTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRemoteCommandTarget.m; sourceTree = "<group>"; };
+		FE58BF0421AFF7C3003CEE4E /* SSRemoteCommandCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRemoteCommandCenter.m; sourceTree = "<group>"; };
+		FE58BF0521AFF7C3003CEE4E /* SSRemoteCommandTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRemoteCommandTarget.h; sourceTree = "<group>"; };
+		FE58BF0621AFF7C3003CEE4E /* SSRemoteCommandCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRemoteCommandCenter.h; sourceTree = "<group>"; };
+		FE58BF0721AFF7C3003CEE4E /* SSRemoteCommandEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRemoteCommandEvent.h; sourceTree = "<group>"; };
+		FE58BF0821AFF7C3003CEE4E /* SSRemoteCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRemoteCommand.h; sourceTree = "<group>"; };
+		FE58BF0921AFF7C4003CEE4E /* SSRemoteCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRemoteCommand.m; sourceTree = "<group>"; };
+		FE590F951E3FA8A100B9ACC1 /* SSRemoteControlEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRemoteControlEvent.h; sourceTree = "<group>"; };
+		FE590F961E3FA8A100B9ACC1 /* SSRemoteControlEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRemoteControlEvent.m; sourceTree = "<group>"; };
+		FE590F991E3FABAE00B9ACC1 /* SSRemoteControlEventIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRemoteControlEventIdentifier.h; sourceTree = "<group>"; };
+		FE590F9A1E3FABAE00B9ACC1 /* SSRemoteControlEventIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRemoteControlEventIdentifier.m; sourceTree = "<group>"; };
+		FE675C2918D68B32000B47AA /* SSRemoteControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSRemoteControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE675C2C18D68B32000B47AA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FE675C2F18D68B32000B47AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE675C3018D68B32000B47AA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FE675C3118D68B32000B47AA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FE675C3418D68B32000B47AA /* SSRemoteControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSRemoteControl-Info.plist"; sourceTree = "<group>"; };
+		FE675C3818D68B32000B47AA /* SSRemoteControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSRemoteControl-Prefix.pch"; sourceTree = "<group>"; };
+		FE675C3918D68B32000B47AA /* SSRemoteControlListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSRemoteControlListener.h; sourceTree = "<group>"; };
+		FE675C3A18D68B32000B47AA /* SSRemoteControlListener.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSRemoteControlListener.m; sourceTree = "<group>"; };
+		FE675C5718D68B4F000B47AA /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		FE7B10AA21A39F9E00525471 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		FE85BB5A1FF90F83000491E5 /* SSRemoteControlListenerObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSRemoteControlListenerObserver.h; sourceTree = "<group>"; };
+		FE85BB5B1FF90F83000491E5 /* SSRemoteControlListenerObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSRemoteControlListenerObserver.m; sourceTree = "<group>"; };
+		FED7437422E849120057876D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FED7437622E8491B0057876D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE675C2518D68B32000B47AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE675C5818D68B4F000B47AA /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE26F637206D41640059D192 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FE58BF0821AFF7C3003CEE4E /* SSRemoteCommand.h */,
+				FE58BF0921AFF7C4003CEE4E /* SSRemoteCommand.m */,
+				FE58BF0621AFF7C3003CEE4E /* SSRemoteCommandCenter.h */,
+				FE58BF0421AFF7C3003CEE4E /* SSRemoteCommandCenter.m */,
+				FE58BF0721AFF7C3003CEE4E /* SSRemoteCommandEvent.h */,
+				FE58BF0221AFF7C3003CEE4E /* SSRemoteCommandEvent.m */,
+				FE58BF0521AFF7C3003CEE4E /* SSRemoteCommandTarget.h */,
+				FE58BF0321AFF7C3003CEE4E /* SSRemoteCommandTarget.m */,
+				FE53E90B19A2204800F4FD00 /* SSRemoteControl.h */,
+				FE391AC318FFD30800F3B3CC /* SSRemoteControlDefines.h */,
+				FE246F3A21E348C800A2F251 /* SSRemoteControlErrors.h */,
+				FE246F3B21E348C800A2F251 /* SSRemoteControlErrors.m */,
+				FE590F951E3FA8A100B9ACC1 /* SSRemoteControlEvent.h */,
+				FE590F961E3FA8A100B9ACC1 /* SSRemoteControlEvent.m */,
+				FE590F991E3FABAE00B9ACC1 /* SSRemoteControlEventIdentifier.h */,
+				FE590F9A1E3FABAE00B9ACC1 /* SSRemoteControlEventIdentifier.m */,
+				FE675C3918D68B32000B47AA /* SSRemoteControlListener.h */,
+				FE675C3A18D68B32000B47AA /* SSRemoteControlListener.m */,
+				FE85BB5A1FF90F83000491E5 /* SSRemoteControlListenerObserver.h */,
+				FE85BB5B1FF90F83000491E5 /* SSRemoteControlListenerObserver.m */,
+				FE22A70D1A83CCAD00D5B9BB /* SSRemoteControlNotificationCenter.h */,
+				FE3867601A84B8AE00AF9EC3 /* SSRemoteControlNotificationCenter.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		FE675C1F18D68B32000B47AA = {
+			isa = PBXGroup;
+			children = (
+				FE675C3218D68B32000B47AA /* SSRemoteControl */,
+				FE675C2B18D68B32000B47AA /* Frameworks */,
+				FE675C2A18D68B32000B47AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE675C2A18D68B32000B47AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE675C2918D68B32000B47AA /* SSRemoteControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE675C2B18D68B32000B47AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE675C5718D68B4F000B47AA /* IOKit.framework */,
+				FE675C2C18D68B32000B47AA /* Cocoa.framework */,
+				FE675C2E18D68B32000B47AA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE675C2E18D68B32000B47AA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE675C2F18D68B32000B47AA /* Foundation.framework */,
+				FE675C3018D68B32000B47AA /* CoreData.framework */,
+				FE675C3118D68B32000B47AA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FE675C3218D68B32000B47AA /* SSRemoteControl */ = {
+			isa = PBXGroup;
+			children = (
+				FE26F637206D41640059D192 /* Classes */,
+				FE675C3318D68B32000B47AA /* Supporting Files */,
+			);
+			path = SSRemoteControl;
+			sourceTree = "<group>";
+		};
+		FE675C3318D68B32000B47AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FED7437322E849120057876D /* Localizable.strings */,
+				FE7B10AA21A39F9E00525471 /* InfoPlist.strings */,
+				FE675C3418D68B32000B47AA /* SSRemoteControl-Info.plist */,
+				FE675C3818D68B32000B47AA /* SSRemoteControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FE675C2618D68B32000B47AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE246F3C21E348C800A2F251 /* SSRemoteControlErrors.h in Headers */,
+				FE58BF1021AFF7C4003CEE4E /* SSRemoteCommand.h in Headers */,
+				FE391AC718FFD3AF00F3B3CC /* SSRemoteControlListener.h in Headers */,
+				FE590F971E3FA8A100B9ACC1 /* SSRemoteControlEvent.h in Headers */,
+				FE58BF0F21AFF7C4003CEE4E /* SSRemoteCommandEvent.h in Headers */,
+				FE58BF0D21AFF7C4003CEE4E /* SSRemoteCommandTarget.h in Headers */,
+				FE590F9B1E3FABAE00B9ACC1 /* SSRemoteControlEventIdentifier.h in Headers */,
+				FE22A70E1A83CCAD00D5B9BB /* SSRemoteControlNotificationCenter.h in Headers */,
+				FE85BB5C1FF90F83000491E5 /* SSRemoteControlListenerObserver.h in Headers */,
+				FE53E90C19A2204800F4FD00 /* SSRemoteControl.h in Headers */,
+				FE58BF0E21AFF7C4003CEE4E /* SSRemoteCommandCenter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FE675C2818D68B32000B47AA /* SSRemoteControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE675C5118D68B32000B47AA /* Build configuration list for PBXNativeTarget "SSRemoteControl" */;
+			buildPhases = (
+				FE675C2418D68B32000B47AA /* Sources */,
+				FE675C2518D68B32000B47AA /* Frameworks */,
+				FE675C2618D68B32000B47AA /* Headers */,
+				FE675C2718D68B32000B47AA /* Resources */,
+				FED7436E22E8482C0057876D /* Localize */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSRemoteControl;
+			productName = SSRemoteControl;
+			productReference = FE675C2918D68B32000B47AA /* SSRemoteControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE675C2018D68B32000B47AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Dante Sabatier";
+			};
+			buildConfigurationList = FE675C2318D68B32000B47AA /* Build configuration list for PBXProject "SSRemoteControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+				Base,
+			);
+			mainGroup = FE675C1F18D68B32000B47AA;
+			productRefGroup = FE675C2A18D68B32000B47AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE675C2818D68B32000B47AA /* SSRemoteControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE675C2718D68B32000B47AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7B10AB21A39F9E00525471 /* InfoPlist.strings in Resources */,
+				FED7437522E849120057876D /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FED7436E22E8482C0057876D /* Localize */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Localize;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${SRCROOT}/$PROJECT_NAME\ngenstrings -q -u -s SSLocalizedString -o Base.lproj *.m *.h\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE675C2418D68B32000B47AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE58BF0A21AFF7C4003CEE4E /* SSRemoteCommandEvent.m in Sources */,
+				FE590F981E3FA8A100B9ACC1 /* SSRemoteControlEvent.m in Sources */,
+				FE58BF1121AFF7C4003CEE4E /* SSRemoteCommand.m in Sources */,
+				FE675C3B18D68B32000B47AA /* SSRemoteControlListener.m in Sources */,
+				FE246F3D21E348C800A2F251 /* SSRemoteControlErrors.m in Sources */,
+				FE590F9C1E3FABAE00B9ACC1 /* SSRemoteControlEventIdentifier.m in Sources */,
+				FE58BF0C21AFF7C4003CEE4E /* SSRemoteCommandCenter.m in Sources */,
+				FE85BB5D1FF90F83000491E5 /* SSRemoteControlListenerObserver.m in Sources */,
+				FE3867611A84B8AE00AF9EC3 /* SSRemoteControlNotificationCenter.m in Sources */,
+				FE58BF0B21AFF7C4003CEE4E /* SSRemoteCommandTarget.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FED7437322E849120057876D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED7437422E849120057876D /* Base */,
+				FED7437622E8491B0057876D /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE675C4F18D68B32000B47AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FE675C5018D68B32000B47AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FE675C5218D68B32000B47AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "SSRemoteControl/SSRemoteControl-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sabatiersoftware.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		FE675C5318D68B32000B47AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "SSRemoteControl/SSRemoteControl-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sabatiersoftware.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE675C2318D68B32000B47AA /* Build configuration list for PBXProject "SSRemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE675C4F18D68B32000B47AA /* Debug */,
+				FE675C5018D68B32000B47AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE675C5118D68B32000B47AA /* Build configuration list for PBXNativeTarget "SSRemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE675C5218D68B32000B47AA /* Debug */,
+				FE675C5318D68B32000B47AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE675C2018D68B32000B47AA /* Project object */;
+}
